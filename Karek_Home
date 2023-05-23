@@ -1,0 +1,47 @@
+"""Write a program in main.py, that makes Karel pick up a beeper and go back into her house.
+You can view the result here: https://codeinplace.stanford.edu/cip3/share/EeuuDMXH4RHCyFKqCmsO"""
+
+from karel.stanfordkarel import *
+
+# File: shelter.py
+# -----------------------------
+# The warmup program defines a "main"
+# function which should make Karel 
+# move to the beeper, pick it up, and
+# return home.
+def main():
+    move_to_package()
+    pick_beeper()
+    return_to_start()
+    
+def move_to_package():
+    move()
+    move ()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    move()
+
+def return_to_start():
+     turn_left()
+     turn_left()
+     move()
+     move()
+     move()
+     turn_left()
+     turn_left()
+     turn_left()
+     move()
+     turn_left()
+     turn_left()
+     turn_left()
+    # add your code here
+    
+    
+    
+# don't edit these next two lines
+# they tell python to run your main function
+if __name__ == '__main__':
+    main()
