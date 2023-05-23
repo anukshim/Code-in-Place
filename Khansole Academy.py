@@ -1,4 +1,8 @@
-""" You can access the code here: https://codeinplace.stanford.edu/cip3/share/46Yu1TlKyaqmxOxZvFSy"""
+""" a program that helps other people learn addition! 
+A program that randomly generates a simple addition problem for the user, 
+reads in the answer from the user, and then checks to see if they got it right or wrong.
+
+You can see the result here: https://codeinplace.stanford.edu/cip3/share/46Yu1TlKyaqmxOxZvFSy """
 
 import random
 
