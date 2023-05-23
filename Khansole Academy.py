@@ -1,3 +1,5 @@
+""" You can access the code here: https://codeinplace.stanford.edu/cip3/share/46Yu1TlKyaqmxOxZvFSy"""
+
 import random
 
 def main():
